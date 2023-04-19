@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #303030;
+    width: 1525px;
+    height: 140px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#logoDNC {
+    margin-right: 0px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    width: 50vw;
+}
+
+h2{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #265E70;
+    justify-content: center;
+    text-align: center;
+}
+
+b{
+    color: rgba(77, 188, 233, 1);
+}
+
+.box{
+    width: 540px;
+    height: 504px;
+
+    background: rgba(77, 188, 233, 0.75); 
+    border-radius: 15px;
+
+    /* Parei aqui, estou tentando deixar esse box com os botões/setas alinhados*/
+    display: grid;
+    grid-auto-flow: column;
+}
