@@ -24,34 +24,47 @@
             <div id="img1">
                 <img src="mulherMoto.svg">
             </div>
-           
+
         </section>
 
         <section class="card">
             <h2> Conheça nossas <b> motos!</b></h2>
-            <div class="box"> 
-                 <div class="seta">
+            <div class="box">
+                <div class="seta">
                     <button><img src="setaEsquerda.svg"></button>
-                 </div> 
+                </div>
 
                 <div class="conteudoCard">
-                        <h3> Scooter Elétrica Voltz EV1</h3>
-                        <img src="scooter.svg" id="scooter">
+                    <h3> Scooter Elétrica Voltz EV1</h3>
+                    <a><img src="scooter.svg" id="scooter"></a>
 
-                        <h4> A partir de </h4>
-                        <p class="valor"> R$ 619,90 </p>
-                        <p>plano de 30 meses</p>
+                    <h4> A partir de </h4>
+                    <p class="valor"> R$ 619,90 </p>
+                    <p>plano de 30 meses</p>
                 </div>
 
                 <div class="seta">
                     <button><img src="setaDireita.svg"></button>
                 </div>
-            </div>  
+            </div>
             <button id="saibaMais"> Saiba mais </button>
 
         </section>
 
-       
+        <!-- ESTRUTURA DO MODAL -->
+        <dialog>  <!-- a tag <dialog> é prática pois já deixa o modal escondido -->
+                <div class="modal">
+                    <button id="fechar">X</button>
+                    <h3 class="titulo-modal"> Scooter Elétrica Voltz EV1</h3>
+                    <p class="texto-modal"> O câmbio de 4 marchas da Scooter Elétrica Voltz EV1 oferece maior confiança e
+                        <br>
+                        performance na pilotagem, tornando as subidas de marcha mais <br>
+                        leves e as reduções mais suaves!</p>
+                    <img src="scooter.svg" id="scooter" class="foto-modal" style="margin-bottom: -1rem;">
+                    <button class="botao-modal"> Quero Assinar </button>
+                </div>
+        </dialog>
+        
 
     </main>
 
